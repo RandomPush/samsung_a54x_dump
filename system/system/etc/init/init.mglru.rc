@@ -1,0 +1,5 @@
+# Note : this file won't be included in GSI
+
+on early-init
+    # Enable MGLRU
+    setprop persist.device_config.mglru_native.lru_gen_config all

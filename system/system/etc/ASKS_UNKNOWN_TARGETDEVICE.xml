@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20241223"/>
+<LIST>
+    <TARGET value="SM-A325N">
+        <DEVICE name="NA"/>
+    </TARGET>
+    <TARGET value="SM-A536N">
+        <DEVICE name="NA"/>
+    </TARGET>
+    <CERTTARGET value="ALL">
+        <DEVICE name="NA"/>
+    </CERTTARGET>
+    <ZIPTARGET value="ALL">
+        <DEVICE name="NA"/>
+    </ZIPTARGET>
+    <ZIPCERTTARGET value="ALL">
+        <DEVICE name="NA"/>
+    </ZIPCERTTARGET>
+    <CERT value="ALL">
+        <DEVICE name="NA"/>
+    </CERT>
+    <PEM_1 value="ALL">
+        <DEVICE name="NA"/>
+    </PEM_1>
+    <PEM_2 value="ALL">
+        <DEVICE name="NA"/>
+    </PEM_2>
+    <PEM_B value="ALL">
+        <DEVICE name="NA"/>
+    </PEM_B>
+    <REGIONAL value="KR">
+        <DEVICE name="NA"/>
+    </REGIONAL>
+    <MALFORMED value="ALL">
+        <DEVICE name="NA"/>
+    </MALFORMED>
+    <TRUSTEDSTORE value="ALL">
+        <DEVICE name="NA"/>
+    </TRUSTEDSTORE>
+    <SIMPLETRUSTEDSTORE value="ALL">
+        <DEVICE name="NA"/>
+    </SIMPLETRUSTEDSTORE>
+    <BLOCKBYCALL value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCKBYCALL>
+    <CALLPEMLIMIT value="ALL">
+        <DEVICE name="NA"/>
+    </CALLPEMLIMIT>
+    <ALLOWSELFUPDATE value="ALL">
+        <DEVICE name="NA"/>
+    </ALLOWSELFUPDATE>
+    <MCCKORONLY value="ALL">
+        <DEVICE name="NA"/>
+    </MCCKORONLY>
+    <TABLETEXCEPT value="ALL">
+        <DEVICE name="NA"/>
+    </TABLETEXCEPT>
+    <REQUEST_INSTALL value="ALL">
+        <DEVICE name="NA"/>
+    </REQUEST_INSTALL>
+    <BLOCK_SMS_1 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_SMS_1>
+    <BLOCK_SMS_2 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_SMS_2>
+    <BLOCK_SMS_3 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_SMS_3>
+    <BLOCK_INSTALLER_1 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_INSTALLER_1>
+    <BLOCK_INSTALLER_2 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_INSTALLER_2>
+    <BLOCK_INSTALLER_3 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_INSTALLER_3>
+    <BLOCK_CALL_1 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_CALL_1>
+    <BLOCK_CALL_2 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_CALL_2>
+    <BLOCK_MALWARE_1 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_MALWARE_1>
+    <BLOCK_MALWARE_3 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_MALWARE_3>
+    <BLOCK_MALWARE_4 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_MALWARE_4>
+    <BLOCK_MALWARE_5 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_MALWARE_5>
+    <BLOCK_CLUSTER_1 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_CLUSTER_1>
+    <BLOCK_GOOGLE_KEY_1 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_GOOGLE_KEY_1>
+    <BLOCK_GOOGLE_KEY_2 value="ALL">
+        <DEVICE name="NA"/>
+    </BLOCK_GOOGLE_KEY_2>
+    <WARNING_CALL value="ALL">
+        <DEVICE name="NA"/>
+    </WARNING_CALL>
+    <WARNING_INSTALLER value="ALL">
+        <DEVICE name="NA"/>
+    </WARNING_INSTALLER>
+    <WARNING_MALWARE_1 value="ALL">
+        <DEVICE name="NA"/>
+    </WARNING_MALWARE_1>
+    <WARNING_MALWARE_2 value="ALL">
+        <DEVICE name="NA"/>
+    </WARNING_MALWARE_2>
+</LIST>

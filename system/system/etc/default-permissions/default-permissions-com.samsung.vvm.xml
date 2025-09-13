@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+ 
+  <exception package="com.samsung.vvm">
+    <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+    <permission name="android.permission.READ_PHONE_STATE" fixed="false" />
+    <permission name="android.permission.CALL_PHONE" fixed="false" />
+    <permission name="android.permission.READ_CALL_LOG" fixed="false" />
+    <permission name="android.permission.WRITE_CALL_LOG" fixed="false" />
+    <permission name="android.permission.RECEIVE_SMS" fixed="false" />
+    <permission name="android.permission.SEND_SMS" fixed="false" />
+    <permission name="android.permission.READ_CONTACTS" fixed="false" />
+    <permission name="android.permission.WRITE_CONTACTS" fixed="false" />
+    <permission name="android.permission.RECEIVE_WAP_PUSH" fixed="false" />
+    <permission name="android.permission.READ_SMS" fixed="false" />
+	<!-- Buganizer (b/238256997) -->
+	<permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />	
+  </exception>
+
+</exceptions>

@@ -1,0 +1,24 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=essi
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SM-A5460
+ro.product.system_ext.name=a54xzh
+ro.system_ext.build.date=Wed Aug 13 15:25:30 KST 2025
+ro.system_ext.build.date.utc=1755066330
+ro.system_ext.build.fingerprint=samsung/a54xzh/essi:15/AP3A.240905.015.A2/A5460ZHSFDYH1:user/release-keys
+ro.system_ext.build.id=AP3A.240905.015.A2
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=A5460ZHSFDYH1
+ro.system_ext.build.version.release=15
+ro.system_ext.build.version.release_or_codename=15
+ro.system_ext.build.version.sdk=35
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+# end of file
+

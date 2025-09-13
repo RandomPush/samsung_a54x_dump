@@ -1,0 +1,9 @@
+<manifest version="1.0" type="device">
+    <hal format="aidl" override="true">
+        <name>vendor.samsung.hardware.security.skpm</name>
+        <interface>
+            <name>ISehSkpm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>

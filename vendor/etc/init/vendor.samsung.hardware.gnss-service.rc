@@ -1,0 +1,9 @@
+service sec_gnss_service /vendor/bin/hw/vendor.samsung.hardware.gnss-service
+    class main
+    user system
+    capabilities WAKE_ALARM
+    group system gps
+
+on property:dev.gnss.initializehal=ON
+    restart sec_gnss_service
+    setprop dev.gnss.initializehal ""

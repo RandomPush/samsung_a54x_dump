@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<exceptions>
+    <!-- AnshinSecurity b/238157627@Google bug ID -->
+    <exception package="com.nttdocomo.android.anshinsecurity">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+    </exception>
+</exceptions>

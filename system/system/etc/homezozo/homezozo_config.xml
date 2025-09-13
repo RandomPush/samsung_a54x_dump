@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setting>
+
+    <!-- system wallpaper -->
+    <wallpaper container="desktop" screen="0" x="0" y="0" path="" location="1" />
+
+    <!-- lock screen wallpaper -->
+    <wallpaper container="desktop" screen="0" x="0" y="0" path="" location="2" />
+
+    <!-- Seamless Start Application mydaiz -->
+    <seamless
+        container="desktop" 
+        screen="0" 
+        x="0" 
+        y="0" 
+        packageName="com.nttdocomo.android.mascot" 
+        activityClass="com.nttdocomo.android.mascot.home.MinusOneActivity" 
+        serviceClass="com.nttdocomo.android.homezozo.MinusOneService" 
+        action="1" />
+
+    <!-- Seamless Start Application mymagazine -->
+    <seamless
+        container="desktop" 
+        screen="0" 
+        x="0" 
+        y="0" 
+        packageName="com.nttdocomo.android.mymagazine" 
+        activityClass="com.nttdocomo.android.mymagazine.ui.SplashActivity" 
+        serviceClass="com.nttdocomo.android.home.BottomPaneService" 
+        action="2" />
+
+    <!-- support qsb -->
+    <qsb
+        container="desktop" 
+        screen="0" 
+        x="0" 
+        y="0" 
+        hide="true" />
+
+    <!-- App auto download -->
+    <app_auto_download
+        container="desktop"
+        screen="0"
+        x="0"
+        y="0"
+        enabled="true" />
+
+</setting>

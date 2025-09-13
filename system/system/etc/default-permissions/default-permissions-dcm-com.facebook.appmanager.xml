@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<exceptions>
+    <!-- facebook appmanager b/233295250@Google bug ID -->
+    <exception package="com.facebook.appmanager">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+    </exception>
+</exceptions>

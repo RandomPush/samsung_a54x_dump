@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<exceptions>
+    <!-- applicationmanager b/237328345@Google bug ID -->
+    <exception package="com.nttdocomo.android.applicationmanager">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+    </exception>
+</exceptions>

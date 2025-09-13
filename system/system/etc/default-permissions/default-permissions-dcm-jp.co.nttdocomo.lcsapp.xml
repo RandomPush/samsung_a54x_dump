@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<exceptions>
+    <!-- lcsapp b/23742833@Google bug ID -->
+    <exception package="jp.co.nttdocomo.lcsapp">
+        <permission name="android.permission.READ_PHONE_STATE" fixed="true" />
+        <permission name="android.permission.READ_PHONE_NUMBERS" fixed="true" />
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="true" />
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="true" />
+    </exception>
+</exceptions>

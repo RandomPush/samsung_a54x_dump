@@ -1,0 +1,13 @@
+/system/preload/DCMDpoint_109296396/DCMDpoint_109296396.apk
+/system/preload/DCMIdApp_109296453/DCMIdApp_109296453.apk
+/system/preload/Tips/Tips.apk
+/system/preload/DCMDisney_109296695/DCMDisney_109296695.apk
+/system/preload/DCMKeitai_109296677/DCMKeitai_109296677.apk
+/system/preload/DCMRecommendShortcut_109296420/DCMRecommendShortcut_109296420.apk
+/system/preload/DCMAmazonShopping_109296703/DCMAmazonShopping_109296703.apk
+/system/preload/DCMFacebook_109296726/DCMFacebook_109296726.apk
+/system/preload/DCMDcard_109296669/DCMDcard_109296669.apk
+/system/preload/DCMKindle_109296744/DCMKindle_109296744.apk
+/system/preload/DCMPhotoCollection_144775529/DCMPhotoCollection_144775529.apk
+/system/preload/DCMManual/DCMManual.apk
+/system/preload/DCMDataStorageBox_109296437/DCMDataStorageBox_109296437.apk

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<config> 
+        <allow-in-power-save package="com.felicanetworks.mfm.main" />
+        <allow-in-power-save package="com.felicanetworks.mfc" />
+        <allow-in-power-save package="com.samsung.felicalock" />
+        <allow-in-power-save package="com.nttdocomo.android.felicaremotelock" />
+        <allow-in-power-save package="com.samsung.kdiremotelock" />
+</config> 

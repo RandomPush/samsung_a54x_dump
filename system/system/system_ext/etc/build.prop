@@ -1,0 +1,26 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=essi
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SCG21
+ro.product.system_ext.name=a54xkdi
+ro.product.device_for_attestation=SCG21
+ro.product.name_for_attestation=SCG21_jp_kdi
+ro.system_ext.build.date=Thu Aug  7 14:04:46 KST 2025
+ro.system_ext.build.date.utc=1754543086
+ro.system_ext.build.fingerprint=samsung/SCG21_jp_kdi/SCG21:15/AP3A.240905.015.A2/SCG21KDS1CYH1:user/release-keys
+ro.system_ext.build.id=AP3A.240905.015.A2
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=SCG21KDS1CYH1
+ro.system_ext.build.version.release=15
+ro.system_ext.build.version.release_or_codename=15
+ro.system_ext.build.version.sdk=35
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+# end of file
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<exceptions>
+    <!-- AUplusmessage b/26316924@Google bug ID -->
+    <exception package="com.kddi.android.cmail">
+        <permission name="android.permission.SEND_SMS" fixed="false" />
+        <permission name="android.permission.RECEIVE_SMS" fixed="false" />
+        <permission name="android.permission.READ_CONTACTS" fixed="false" />
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false" />
+    </exception>
+</exceptions>

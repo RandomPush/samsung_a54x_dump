@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+
+    <sales-code csc="ATT">
+        <!-- ATT VVM -->
+        <package name="com.samsung.vvm">
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+			<permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+			<permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+			<permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+			<permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />			
+        </package>
+    </sales-code>
+	
+    <sales-code csc="APP">
+        <!-- APP VVM -->
+        <package name="com.samsung.vvm">
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+			<permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+			<permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+			<permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+			<permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+	
+    <sales-code csc="AIO">
+		<package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+
+    <sales-code csc="TLS">
+		<package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+	
+    <sales-code csc="KDO">
+		<package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+	
+    <sales-code csc="CHA">
+		<package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+	
+    <sales-code csc="VZW">
+		<package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+
+    <sales-code csc="VPP">
+		<package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+
+    <!--TFV -->
+    <sales-code csc="TFV">
+        <!-- Unified VVM -->
+        <package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+	
+    <!--TFA -->
+    <sales-code csc="TFA">
+        <!-- Unified VVM -->
+
+        <package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+
+    <sales-code csc="TMB">
+		<package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+
+    <sales-code csc="CCT">
+        <package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+	
+    <sales-code csc="LRA">
+        <package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+
+    <sales-code csc="FKR">
+        <package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+
+    <sales-code csc="TMK">
+		<package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+	
+    <sales-code csc="ATC">
+        <!-- Unified VVM -->
+        <package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>	
+
+    <sales-code csc="XAA">
+        <!-- Unified VVM -->
+        <package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+	
+    <sales-code csc="XAR">
+        <!-- Unified VVM -->
+        <package name="com.samsung.vvm">
+        <!--  Visual Voice Mail (VVM) Buganizer ID: b/24475051 -->
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_WAP_PUSH" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+			<!-- Buganizer (b/238256997) -->
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />	
+            <revoke-permission name="android.permission.RECORD_AUDIO" />
+        </package>
+    </sales-code>
+	
+</omc-default-permissions>

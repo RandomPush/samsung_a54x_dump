@@ -1,0 +1,4 @@
+# Miscellaneous
+ro.product.device_for_attestation=SC-53D
+ro.vendor.qti.va_odm.support=1
+

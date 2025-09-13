@@ -1,0 +1,14 @@
+# a54xdcm-user 15 AP3A.240905.015.A2 SC53DOMS1CYH1 release-keys
+- manufacturer: samsung
+- platform: erd8835
+- codename: a54x
+- flavor: a54xdcm-user
+- release: 15
+- id: AP3A.240905.015.A2
+- incremental: SC53DOMS1CYH1
+- tags: release-keys
+- fingerprint: samsung/SC-53D/SC-53D:13/TP1A.220624.014/SC53DOMS1CYH1:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: a54xdcm-user-15-AP3A.240905.015.A2-SC53DOMS1CYH1-release-keys-
+- repo: samsung_a54x_dump

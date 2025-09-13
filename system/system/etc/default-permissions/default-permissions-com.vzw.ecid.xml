@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+        <!-- Caller Name ID Buganizer ID: b/24473944, b/243782720(POST_NOTIFICATIONS) -->
+        <exception package="com.vzw.ecid">
+            <permission fixed="false" name="android.permission.READ_PHONE_STATE" />
+            <permission fixed="false" name="android.permission.READ_CALL_LOG" />
+            <permission fixed="false" name="android.permission.CALL_PHONE" />
+            <permission fixed="false" name="android.permission.PROCESS_OUTGOING_CALLS" />
+            <permission fixed="false" name="android.permission.RECEIVE_SMS" />
+            <permission fixed="false" name="android.permission.SEND_SMS" />
+            <permission fixed="false" name="android.permission.READ_CONTACTS" />
+            <permission fixed="false" name="android.permission.WRITE_CONTACTS" />
+            <permission fixed="false" name="android.permission.POST_NOTIFICATIONS" />
+        </exception>
+</exceptions>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="VZW" firstboot="true">
+    <!-- MVS (MyVerizon Services) Buganizer ID: b/25497676, b/243695885(POST_NOTIFICATIONS) -->
+        <package name="com.verizon.mips.services">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.ACCESS_COARSE_LOCATION" systemfixed="false" />
+            <permission name="android.permission.ACCESS_FINE_LOCATION" systemfixed="false" />
+            <permission name="android.permission.PROCESS_OUTGOING_CALLS" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code csc="VPP" firstboot="true">
+    <!-- MVS (MyVerizon Services) Buganizer ID: b/25497676, b/243695885(POST_NOTIFICATIONS) -->
+        <package name="com.verizon.mips.services">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.ACCESS_COARSE_LOCATION" systemfixed="false" />
+            <permission name="android.permission.ACCESS_FINE_LOCATION" systemfixed="false" />
+            <permission name="android.permission.PROCESS_OUTGOING_CALLS" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <!--MVS-Lite shares the same package name as MVS, resulting in automatic grant of POST_NOTIFICATIONS permission in 'VZW->CCT/CHA BYOD without FDR case'.
+    Hence, revoking this permission for MVS-Lite in CHA/CCT. No other MVS pregranted permissions except post_notifications are declared in MVS-Lite.-->
+    <sales-code csc="CCT" firstboot="true">
+        <package name="com.verizon.mips.services">
+            <revoke-permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code csc="CHA" firstboot="true">
+        <package name="com.verizon.mips.services">
+            <revoke-permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

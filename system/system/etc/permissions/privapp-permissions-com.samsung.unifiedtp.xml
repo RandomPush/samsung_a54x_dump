@@ -1,0 +1,12 @@
+<permissions>
+    <privapp-permissions package="com.samsung.unifiedtp">
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="com.samsung.unifiedtp.permission.PROVISION_HOTSPOT_TRIGGER"/>
+    </privapp-permissions>
+</permissions>

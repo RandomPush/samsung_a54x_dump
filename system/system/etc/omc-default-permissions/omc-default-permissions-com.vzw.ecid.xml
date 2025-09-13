@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="VZW">
+        <!-- Caller Name ID Buganizer ID: b/24473944, b/243782720(POST_NOTIFICATIONS) -->
+        <package name="com.vzw.ecid">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.PROCESS_OUTGOING_CALLS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

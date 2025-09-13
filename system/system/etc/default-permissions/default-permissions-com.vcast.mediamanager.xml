@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+        <!-- Verizon Cloud Buganizer ID: b/24272563, b/243557047(POST_NOTIFICATIONS), b/243960989 (Granular media permissions) -->
+        <exception package="com.vcast.mediamanager">
+            <permission fixed="false" name="android.permission.READ_EXTERNAL_STORAGE" />
+            <permission fixed="false" name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            <permission fixed="false" name="android.permission.READ_CONTACTS" />
+            <permission fixed="false" name="android.permission.WRITE_CONTACTS" />
+            <permission fixed="false" name="android.permission.GET_ACCOUNTS" />
+            <permission fixed="false" name="android.permission.READ_PHONE_STATE" />
+            <permission fixed="false" name="android.permission.CALL_PHONE" />
+            <permission fixed="false" name="android.permission.WRITE_CALL_LOG" />
+            <permission fixed="false" name="android.permission.READ_CALL_LOG" />
+            <permission fixed="false" name="android.permission.RECEIVE_SMS" />
+            <permission fixed="false" name="android.permission.RECEIVE_MMS" />
+            <permission fixed="false" name="android.permission.SEND_SMS" />
+            <permission fixed="false" name="android.permission.READ_SMS" />
+            <permission fixed="false" name="android.permission.ACCESS_MEDIA_LOCATION" />
+			<permission fixed="false" name="android.permission.READ_MEDIA_IMAGES" />
+			<permission fixed="false" name="android.permission.READ_MEDIA_VIDEO" />
+			<permission fixed="false" name="android.permission.READ_MEDIA_AUDIO" />
+            <permission fixed="false" name="android.permission.POST_NOTIFICATIONS" />
+        </exception>
+</exceptions>

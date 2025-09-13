@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+        <!-- SecurityAndPrivacy Buganizer ID: b/243557048(POST_NOTIFICATIONS) -->
+        <exception package="com.securityandprivacy.android.verizon.vms">
+            <permission fixed="false" name="android.permission.POST_NOTIFICATIONS" />
+        </exception>
+</exceptions>

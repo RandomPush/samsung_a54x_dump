@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="VZW">
+        <!-- Verizon Cloud Buganizer ID: b/24272563, b/243557047(POST_NOTIFICATIONS), b/243960989 (Granular media permissions) -->
+        <package name="com.vcast.mediamanager">
+            <permission name="android.permission.READ_EXTERNAL_STORAGE" systemfixed="false" />
+            <permission name="android.permission.WRITE_EXTERNAL_STORAGE" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.GET_ACCOUNTS" systemfixed="false" />
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_MMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+            <permission name="android.permission.ACCESS_MEDIA_LOCATION" systemfixed="false" />
+            <permission name="android.permission.READ_MEDIA_IMAGES" systemfixed="false" />
+            <permission name="android.permission.READ_MEDIA_VIDEO" systemfixed="false" />
+            <permission name="android.permission.READ_MEDIA_AUDIO" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code csc="VPP">
+        <!-- Verizon Cloud Buganizer ID: b/24272563, b/243557047(POST_NOTIFICATIONS), b/243960989 (Granular media permissions) -->
+        <package name="com.vcast.mediamanager">
+            <permission name="android.permission.READ_EXTERNAL_STORAGE" systemfixed="false" />
+            <permission name="android.permission.WRITE_EXTERNAL_STORAGE" systemfixed="false" />
+            <permission name="android.permission.READ_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+            <permission name="android.permission.GET_ACCOUNTS" systemfixed="false" />
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+            <permission name="android.permission.WRITE_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.READ_CALL_LOG" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false" />
+            <permission name="android.permission.RECEIVE_MMS" systemfixed="false" />
+            <permission name="android.permission.SEND_SMS" systemfixed="false" />
+            <permission name="android.permission.READ_SMS" systemfixed="false" />
+            <permission name="android.permission.ACCESS_MEDIA_LOCATION" systemfixed="false" />
+            <permission name="android.permission.READ_MEDIA_IMAGES" systemfixed="false" />
+            <permission name="android.permission.READ_MEDIA_VIDEO" systemfixed="false" />
+            <permission name="android.permission.READ_MEDIA_AUDIO" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

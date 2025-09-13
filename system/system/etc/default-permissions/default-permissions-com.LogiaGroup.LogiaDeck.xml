@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+        <!-- DTIgnite Buganizer ID: b/24273045, b/243565962(POST_NOTIFICATIONS) -->
+        <exception package="com.LogiaGroup.LogiaDeck">
+            <permission fixed="false" name="android.permission.POST_NOTIFICATIONS" />
+            <revoke-permission name="android.permission.CALL_PHONE" />
+            <revoke-permission name="android.permission.ADD_VOICEMAIL" />
+            <revoke-permission name="android.permission.USE_SIP" />
+        </exception>
+</exceptions>

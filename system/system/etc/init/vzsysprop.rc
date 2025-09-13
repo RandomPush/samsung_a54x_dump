@@ -1,0 +1,23 @@
+# Copyright (C) 2012 The Android Open Source Project
+#
+# IMPORTANT: Do not create world writable files or directories.
+# This is a common source of Android security bugs.
+#
+
+service vzsysprop /system/bin/vzsysprop
+    user system
+    group system
+    disabled
+    oneshot
+
+# Verizon Sw/Hw/SINGLESKU properties
+on property:ro.csc.sales_code=VZW
+    start vzsysprop
+on property:ro.csc.sales_code=VZW && property:ril.hw_ver=*
+    start vzsysprop
+
+# Verizon VPP devices
+on property:ro.csc.sales_code=VPP
+    start vzsysprop
+on property:ro.csc.sales_code=VPP && property:ril.hw_ver=*
+    start vzsysprop

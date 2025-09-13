@@ -1,0 +1,4 @@
+on post-fs-data
+    mkdir /dev/socket/mnodm_socket
+    chmod 0711 /dev/socket/mnodm_socket
+    chown system system /dev/socket/mnodm_socket

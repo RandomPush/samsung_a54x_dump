@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+  <exception package="com.sec.android.app.setupwizard">
+    <!-- These permissions are optional to mention for system app, also permissions are fixed so that user cannot revoke them from UI -->
+    <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true"/>
+    <!-- //TOS (b/240098678) @Google bug ID -->
+	<!-- https://mobilerndhub.sec.samsung.net/hub/site/gcim/board/newrequest/view/31346279 -->
+	<permission name="android.permission.READ_PHONE_STATE" fixed="true"/>
+	<!-- auto granted to Platform signed apps -->
+    <permission name="android.permission.POST_NOTIFICATIONS" fixed="true"/>
+  </exception>
+</exceptions>

@@ -1,0 +1,2 @@
+on property:sys.boot_completed=1
+    chown vendor_ker vendor_ker /data/kpp/

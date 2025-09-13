@@ -1,0 +1,2 @@
+on property:ro.boot.carrierid=TFN
+    setprop ssu.support 1

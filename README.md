@@ -1,0 +1,14 @@
+# a54xkdi-user 15 AP3A.240905.015.A2 SCG21KDS1CYH1 release-keys
+- manufacturer: samsung
+- platform: erd8835
+- codename: a54x
+- flavor: a54xkdi-user
+- release: 15
+- id: AP3A.240905.015.A2
+- incremental: SCG21KDS1CYH1
+- tags: release-keys
+- fingerprint: samsung/SCG21_jp_kdi/SCG21:13/TP1A.220624.014/SCG21KDS1CYH1:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: a54xkdi-user-15-AP3A.240905.015.A2-SCG21KDS1CYH1-release-keys-
+- repo: samsung_a54x_dump

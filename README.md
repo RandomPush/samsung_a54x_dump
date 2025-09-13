@@ -1,0 +1,14 @@
+# a54xsqw-user 15 AP3A.240905.015.A2 A546VSQSEDYH3 release-keys
+- manufacturer: samsung
+- platform: erd8835
+- codename: a54x
+- flavor: a54xsqw-user
+- release: 15
+- id: AP3A.240905.015.A2
+- incremental: A546VSQSEDYH3
+- tags: release-keys
+- fingerprint: samsung/a54xsqw/a54x:13/TP1A.220624.014/A546VSQSEDYH3:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: a54xsqw-user-15-AP3A.240905.015.A2-A546VSQSEDYH3-release-keys-
+- repo: samsung_a54x_dump

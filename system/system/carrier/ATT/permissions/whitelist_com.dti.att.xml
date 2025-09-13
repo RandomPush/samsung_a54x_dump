@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The OMA DM service must be
+                 whitelisted so they are always able to run. -->
+<config>
+  <allow-in-power-save package="com.dti.att"/>
+  <allow-in-data-usage-save package="com.dti.att"/>
+  <app-link package="com.dti.att"/>
+</config>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+  <sales-code csc="TMB">
+        <package name="com.tmobile.dm.ms.services">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+             <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+             <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+        </package>
+    </sales-code>
+ <sales-code csc="TMK"> 
+        <package name="com.tmobile.dm.ms.services">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+             <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+             <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+        </package>
+    </sales-code>
+ <sales-code csc="DSH">
+        <package name="com.tmobile.dm.ms.services">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+			 <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </sales-code>
+ <sales-code csc="ASR">
+        <package name="com.tmobile.dm.ms.services">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+             <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+             <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+        </package>
+ </sales-code>
+</omc-default-permissions>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="DSH">
+        <!--DishInstaller  238860383@Google Bug I -->
+        <package name="com.dish.wireless.installer">
+        <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>	
+
+         <!-- DSA-->
+    <sales-code csc="DSA">
+         <!--DishInstaller  238860383@Google Bug I -->
+        <package name="com.dish.wireless.installer">
+        <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+
+	 <!-- DSG-->
+    <sales-code csc="DSG">
+          <!--DishInstaller  238860383@Google Bug I -->
+        <package name="com.dish.wireless.installer">
+         <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+</omc-default-permissions>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+ 
+  <exception package="com.cricketwireless.thescoop">
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" systemfixed="false"/>
+        <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+  </exception>
+
+</exceptions>

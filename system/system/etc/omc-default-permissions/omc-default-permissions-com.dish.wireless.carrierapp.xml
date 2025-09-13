@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+  <sales-code csc="DSA">
+           <!--DSA/DSG DSDS carrier app  220885195@Google , 223985630@Google Bug I -->  
+        <package name="com.dish.wireless.carrierapp">
+             <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+             <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" systemfixed="false" />
+        </package>
+    </sales-code> 
+ <sales-code csc="DSG">
+            <!--DSA/DSG DSDS carrier app  220885195@Google , 223985630@Google Bug I -->  
+        <package name="com.dish.wireless.carrierapp">
+             <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+             <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" systemfixed="false" />
+        </package>
+    </sales-code> 
+	<sales-code csc="DSH">
+            <!--DSA/DSG DSDS carrier app  220885195@Google , 223985630@Google Bug I -->  
+        <package name="com.dish.wireless.carrierapp">
+             <permission name="android.permission.WRITE_CONTACTS" systemfixed="false" />
+             <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" systemfixed="false" />
+        </package>
+    </sales-code> 
+</omc-default-permissions>

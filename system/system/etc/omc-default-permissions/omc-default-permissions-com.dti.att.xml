@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="ATT" firstboot="true">
+        <!--  Appselect -->	        
+        <package name="com.dti.att">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

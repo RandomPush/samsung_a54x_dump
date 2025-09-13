@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+  <sales-code csc="TMB">
+        <package name="com.tmobile.dm.cm">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+		<permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+		<permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" systemfixed="false" />
+        </package>
+    </sales-code>
+ <sales-code csc="TMK"> 
+        <package name="com.tmobile.dm.cm">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+		<permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+		<permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" systemfixed="false" />
+        </package>
+    </sales-code>
+ <sales-code csc="ASR">
+        <package name="com.tmobile.dm.cm">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+		<permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+		<permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

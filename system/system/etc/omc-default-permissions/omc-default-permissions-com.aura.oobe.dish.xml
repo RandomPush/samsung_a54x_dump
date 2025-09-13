@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="DSH">
+        <!--DSH Appcloud_Stub 238860382@Google Bug I -->
+        <package name="com.aura.oobe.dish">
+        <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+
+	
+    <sales-code csc="DSA">
+          <!--DSH Appcloud_Stub 238860382@Google Bug I -->
+        <package name="com.aura.oobe.dish">
+        <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+
+	 <!-- DSG-->
+    <sales-code csc="DSG">
+          <!--DSH Appcloud_Stub 238860382@Google Bug I -->
+        <package name="com.aura.oobe.dish">
+       <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+</omc-default-permissions>

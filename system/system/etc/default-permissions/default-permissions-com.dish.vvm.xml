@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+
+   <!--DSH VVM  189919411@Google Bug I -->
+  <exception package="com.dish.vvm">
+		<permission name="android.permission.CALL_PHONE" systemfixed="false"/>
+		<permission name="android.permission.READ_PHONE_STATE" systemfixed="false"/>
+		<permission name="android.permission.READ_SMS" systemfixed="false"/>
+		<permission name="android.permission.RECEIVE_SMS" systemfixed="false"/>
+		<permission name="android.permission.SEND_SMS" systemfixed="false"/>
+		<permission name="android.permission.READ_PHONE_NUMBERS" systemfixed="false"/>
+		<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+  </exception>
+ 
+</exceptions>

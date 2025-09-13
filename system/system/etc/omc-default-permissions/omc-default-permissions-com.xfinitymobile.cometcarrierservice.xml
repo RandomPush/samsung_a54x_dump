@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+	<sales-code csc="CCT">
+        <package name="com.xfinitymobile.cometcarrierservice">
+            <permission name="android.permission.ACTIVITY_RECOGNITION"/>
+            <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+            <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+            <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+        </package>
+    </sales-code>
+</omc-default-permissions>

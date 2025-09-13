@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="TMB">
+        <!-- EchoApp (Buganizer ID: 133335649) -->
+        <package name="com.tmobile.echolocate">
+            <permission name="android.permission.ACCESS_FINE_LOCATION" systemfixed="false" />
+            <permission name="android.permission.ACCESS_COARSE_LOCATION" systemfixed="false" />
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

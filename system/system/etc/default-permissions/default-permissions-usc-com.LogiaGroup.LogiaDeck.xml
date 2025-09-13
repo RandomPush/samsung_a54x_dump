@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+	<exception package="com.LogiaGroup.LogiaDeck">
+	<!-- Post notification permissions --> 
+	<!--  DTIgnite , 241465908@Google Bug ID -->
+		<permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+	</exception>
+</exceptions>

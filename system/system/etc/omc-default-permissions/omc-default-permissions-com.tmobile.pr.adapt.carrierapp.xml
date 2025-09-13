@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+  <sales-code csc="TMB">
+           <!--AdaptClient Buganizer ID: 240543741@Google --> 
+        <package name="com.tmobile.pr.adapt">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code> 
+  <sales-code csc="TMK">
+            <!--AdaptClient Buganizer ID: 240543741@Google -->  
+        <package name="com.tmobile.pr.adapt">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code> 
+  <sales-code csc="ASR">
+            <!--AdaptClient Buganizer ID: 240543741@Google -->  
+        <package name="com.tmobile.pr.adapt">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

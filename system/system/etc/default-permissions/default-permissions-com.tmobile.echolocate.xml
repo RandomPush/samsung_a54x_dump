@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<exceptions>
+
+  <!--Access T-Mobile Buganizer ID: 267350803@Google --> 
+   <exception package="com.tmobile.echolocate"> 
+            <permission name="android.permission.ACCESS_FINE_LOCATION" systemfixed="false" />
+            <permission name="android.permission.ACCESS_COARSE_LOCATION" systemfixed="false" />
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" systemfixed="false" />
+   </exception> 
+
+</exceptions>

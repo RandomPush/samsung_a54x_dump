@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="AIO" firstboot="true">
+        <!--  Ignite_AIO: Bug ID for POST_NOTIFICATIONS: 248244804 -->	        
+        <package name="com.dti.cricket">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

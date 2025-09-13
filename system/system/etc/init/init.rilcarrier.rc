@@ -1,0 +1,13 @@
+#
+# To manage something related to OMC in RIL
+#
+
+# USA
+on property:ril.tws=1
+    write /proc/sys/net/ipv4/tcp_window_scaling 1
+on property:ril.tws=0
+    write /proc/sys/net/ipv4/tcp_window_scaling 0
+
+# Depending on support_cdma
+on property:ro.ril.support_cdma=true
+    setprop telephony.lteOnCdmaDevice 1

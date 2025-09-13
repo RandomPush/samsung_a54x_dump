@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.dish.wireless.installer">
+       <deny-permission name="android.permission.INSTALL_PACKAGES"/>
+       <permission name="android.permission.QUERY_ALL_PACKAGES"/>
+    </privapp-permissions>
+</permissions>

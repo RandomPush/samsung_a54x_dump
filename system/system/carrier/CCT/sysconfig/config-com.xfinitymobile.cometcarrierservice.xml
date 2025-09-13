@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<config> 
+    <hidden-api-whitelisted-app package="com.xfinitymobile.cometcarrierservice" />
+    <allow-in-power-save package="com.xfinitymobile.cometcarrierservice" />
+    <allow-in-data-usage-save package="com.xfinitymobile.cometcarrierservice" />
+</config>

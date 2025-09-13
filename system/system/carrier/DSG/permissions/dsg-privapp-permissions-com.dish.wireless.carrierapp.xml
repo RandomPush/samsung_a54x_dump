@@ -1,0 +1,10 @@
+<permissions>
+    <privapp-permissions package="com.dish.wireless.carrierapp">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.QUERY_ALL_PACKAGES"/>
+        <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>

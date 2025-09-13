@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The OMA DM service must be
+                 whitelisted so they are always able to run. -->
+<config>
+  <allow-in-power-save package="com.dti.cricket"/>
+  <allow-in-data-usage-save package="com.dti.cricket"/>
+  <app-link package="com.dti.cricket"/>
+</config>

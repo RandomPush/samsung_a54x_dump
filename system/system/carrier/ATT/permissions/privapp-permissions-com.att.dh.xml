@@ -1,0 +1,12 @@
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the platform
+-->
+
+<permissions>
+    <privapp-permissions package="com.att.dh">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>

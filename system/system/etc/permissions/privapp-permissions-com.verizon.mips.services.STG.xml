@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.verizon.mips.services">
+	    <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE" />
+		<permission name="android.permission.MANAGE_SUBSCRIPTION_PLANS" />
+        <permission name="android.permission.INSTALL_SELF_UPDATES" />
+		<permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+		<permission name="android.permission.SET_TIME" />
+    </privapp-permissions> 
+</permissions> 

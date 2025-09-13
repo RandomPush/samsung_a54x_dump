@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+ <!--  ATT bug id - #184334067, #291642078 -->
+  <exception package="com.att.personalcloud">
+        <permission name="android.permission.READ_CONTACTS" systemfixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" systemfixed="false"/>
+		<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        <permission name="android.permission.READ_MEDIA_AUDIO" systemfixed="false"/>
+        <permission name="android.permission.READ_MEDIA_IMAGES" systemfixed="false"/>
+		<permission name="android.permission.READ_PHONE_STATE" systemfixed="false"/>
+        <permission name="android.permission.READ_MEDIA_VIDEO" systemfixed="false"/>
+        <permission name="android.permission.READ_CALL_LOG" systemfixed="false"/>
+		<permission name="android.permission.WRITE_CALL_LOG" systemfixed="false"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" systemfixed="false"/>
+		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" systemfixed="false"/>
+        <permission name="android.permission.READ_SMS" systemfixed="false"/>
+        <permission name="android.permission.RECEIVE_SMS" systemfixed="false"/>
+		<permission name="android.permission.RECEIVE_MMS" systemfixed="false"/>
+  </exception>
+
+</exceptions>

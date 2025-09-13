@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+
+   <!--Dsh Appcloud_stub  238860382@Google Bug I -->
+  <exception package="com.aura.oobe.dish">
+  <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+  </exception>
+ 
+</exceptions>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+   <sales-code csc="SPR">
+	 <!--DSH VVM  189919411@Google Bug I -->
+        <package name="com.dish.vvm">
+            <permission name="android.permission.CALL_PHONE" systemfixed="false"/>
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false"/>
+            <permission name="android.permission.READ_SMS" systemfixed="false"/>
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false"/>
+            <permission name="android.permission.SEND_SMS" systemfixed="false"/>
+        </package>
+	  </sales-code>	
+    <sales-code csc="DSH">
+        <!--DSH VVM  189919411@Google Bug I -->
+        <package name="com.dish.vvm">
+            <permission name="android.permission.CALL_PHONE" systemfixed="false"/>
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false"/>
+            <permission name="android.permission.READ_SMS" systemfixed="false"/>
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false"/>
+            <permission name="android.permission.SEND_SMS" systemfixed="false"/>
+			<permission name="android.permission.READ_PHONE_NUMBERS" systemfixed="false"/>
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+	</sales-code>	
+	<sales-code csc="DSA">
+        <!--DSH VVM  189919411@Google Bug I -->
+        <package name="com.dish.vvm">
+            <permission name="android.permission.CALL_PHONE" systemfixed="false"/>
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false"/>
+            <permission name="android.permission.READ_SMS" systemfixed="false"/>
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false"/>
+            <permission name="android.permission.SEND_SMS" systemfixed="false"/>
+			<permission name="android.permission.READ_PHONE_NUMBERS" systemfixed="false"/>
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+	 <!-- DSG-->
+    <sales-code csc="DSG">
+        <!--DSH VVM  189919411@Google Bug I -->
+        <package name="com.dish.vvm">
+            <permission name="android.permission.CALL_PHONE" systemfixed="false"/>
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false"/>
+            <permission name="android.permission.READ_SMS" systemfixed="false"/>
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="false"/>
+            <permission name="android.permission.SEND_SMS" systemfixed="false"/>
+			<permission name="android.permission.READ_PHONE_NUMBERS" systemfixed="false"/>
+			<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+</omc-default-permissions>

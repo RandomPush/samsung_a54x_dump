@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<exceptions>
+
+  <!--AdaptClient Buganizer ID: 240543741@Google --> 
+  <exception package="com.tmobile.pr.adapt">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+  </exception>
+
+</exceptions>

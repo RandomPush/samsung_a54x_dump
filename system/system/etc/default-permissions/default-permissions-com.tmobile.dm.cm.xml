@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<exceptions>
+
+  <exception package="com.tmobile.dm.cm">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+		<permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+		<permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" systemfixed="false" />
+  </exception>
+
+</exceptions>

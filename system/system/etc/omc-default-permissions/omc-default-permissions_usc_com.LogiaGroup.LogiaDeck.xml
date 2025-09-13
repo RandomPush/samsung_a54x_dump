@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="USC">
+          <!--  DTIgnite , 241465908@Google Bug ID -->
+        <package name="com.LogiaGroup.LogiaDeck">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code> 
+</omc-default-permissions>

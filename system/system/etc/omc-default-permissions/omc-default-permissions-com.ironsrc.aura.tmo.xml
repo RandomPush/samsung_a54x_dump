@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+  <sales-code csc="TMB">
+        <package name="com.ironsrc.aura.tmo">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+             <permission name="android.permission.READ_PHONE_NUMBERS" systemfixed="false" />
+        </package>
+    </sales-code> 
+ <sales-code csc="TMK">
+        <package name="com.ironsrc.aura.tmo">
+             <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+             <permission name="android.permission.READ_PHONE_NUMBERS" systemfixed="false" />
+        </package>
+    </sales-code>  
+</omc-default-permissions>

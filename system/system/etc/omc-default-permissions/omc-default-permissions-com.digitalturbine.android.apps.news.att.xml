@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="ATT" firstboot="true">
+          <!--  ATT ,SYSTEM_ALERT_WINDOW-->
+        <package name="com.digitalturbine.android.apps.news.att">
+			<permission name="android.permission.SYSTEM_ALERT_WINDOW" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

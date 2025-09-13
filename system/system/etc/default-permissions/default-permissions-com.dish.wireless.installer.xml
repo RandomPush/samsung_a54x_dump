@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+
+   <!--DshInstaller 238860383@Google Bug I -->
+  <exception package="com.dish.wireless.installer">
+		<permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+  </exception>
+ 
+</exceptions>

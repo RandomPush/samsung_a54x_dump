@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.spectrum.cm.headless">
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_WIFI_CREDENTIAL"/>
+        <permission name="android.permission.INSTALL_SELF_UPDATES"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.NETWORK_CARRIER_PROVISIONING"/>
+        <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    </privapp-permissions>
+</permissions>

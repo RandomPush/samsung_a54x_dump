@@ -1,0 +1,14 @@
+# a54xnaxx-user 16 BP2A.250605.031.A3 A546BXXUFEYI4 release-keys
+- manufacturer: samsung
+- platform: erd8835
+- codename: a54x
+- flavor: a54xnaxx-user
+- release: 16
+- id: BP2A.250605.031.A3
+- incremental: A546BXXUFEYI4
+- tags: release-keys
+- fingerprint: samsung/a54xnaxx/a54x:13/TP1A.220624.014/A546BXXUFEYI4:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: a54xnaxx-user-16-BP2A.250605.031.A3-A546BXXUFEYI4-release-keys-
+- repo: samsung_a54x_dump

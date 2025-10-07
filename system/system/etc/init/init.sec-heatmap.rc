@@ -1,0 +1,43 @@
+on charger
+    chmod 0664 /sys/class/power_supply/sec_auth/batt_heatmap
+    chown system radio /sys/class/power_supply/sec_auth/batt_heatmap
+    class_start heatmap-charger
+
+on boot
+    mkdir /efs/FactoryApp/batt_algo 0775 system system
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_CNT
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_ASOC
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_RSOC
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_SOC_RE
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_SOC_EDV
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_SOH
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_Anode_Potential
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_SOH_dR
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_SOH_CA
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_SOH_X
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_ISD_Value
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_ISD_Score
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_ISD_Vacc
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_ISD_Vavg
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_AD_Step0
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_AD_Step1
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_AD_Step2
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_AD_Step3
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_T_MOVE
+    chmod 0664 /efs/FactoryApp/batt_algo/ECT_OCV
+    
+    chmod 0664 /sys/class/power_supply/sec_auth/batt_heatmap
+    chown system radio /sys/class/power_supply/sec_auth/batt_heatmap
+    chmod 0664 /efs/FactoryApp/heatmap
+    chown system system /efs/FactoryApp/heatmap
+    chmod 0664 /efs/FactoryApp/dsoh
+    chmod 0664 /efs/FactoryApp/heatmap_to_cycle
+
+on post-fs-data
+    chmod 0664 /storage/emulated/0/documents/inputlog.txt
+    chmod 0664 /storage/emulated/0/documents/outputlog.txt
+
+service heatmap /system/bin/heatmap
+    class heatmap-charger core
+    user system
+    group system

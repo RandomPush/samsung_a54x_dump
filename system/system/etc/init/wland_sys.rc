@@ -1,0 +1,60 @@
+service wland /system/bin/wland
+    class main
+    user system
+    group system wifi inet log misc readtracefs
+
+on post-fs-data
+    chmod 0660 /dev/samsg
+    chmod 0660 /dev/samlog
+    chown wifi wifi /dev/samsg
+    chown wifi wifi /dev/samlog
+    chown system wifi /sys/module/scsc_logring/parameters/scsc_droplevel_tx
+    chown system wifi /sys/module/scsc_logring/parameters/scsc_droplevel_rx
+    chown system wifi /sys/module/scsc_logring/parameters/scsc_droplevel_bin_wifi_data_tx
+    chown system wifi /sys/module/scsc_logring/parameters/scsc_droplevel_bin_wifi_data_rx
+    chown system wifi /sys/module/scsc_logring/parameters/scsc_droplevel_bin_wifi_ctrl_tx
+    chown system wifi /sys/module/scsc_logring/parameters/scsc_droplevel_bin_wifi_ctrl_rx
+    chown system wifi /sys/module/scsc_bt/parameters/mxlog_filter
+    chown system wifi /sys/module/scsc_wlan/parameters/slsi_monitor_lpc
+    chown system wifi /sys/module/scsc_mx/parameters/bt_fw_realtime_log_disabled
+
+on property:sys.boot_completed=1
+    mkdir /sys/kernel/tracing/instances/forCNNT 711
+    restorecon_recursive /sys/kernel/tracing/instances/forCNNT
+    write /sys/kernel/tracing/instances/forCNNT/tracing_on 0
+    chown system /sys/kernel/tracing/instances/forCNNT/trace_pipe
+    chown system /sys/kernel/tracing/instances/forCNNT/tracing_on
+    chown system /sys/kernel/tracing/instances/forCNNT/events/tcp/tcp_probe/enable
+    chown system wifi /sys/wifi/max_chipset_log_size
+restart --only-if-running wland
+
+on property:ro.boot.debug_level=0x4f4c
+    setprop persist.wlbtlog.chipsetlogging 0
+    setprop persist.wlbtlog.mxlog -1
+    setprop persist.wlbtlog.udilog -1
+
+on property:ro.boot.debug_level=0x494d
+    setprop persist.wlbtlog.chipsetlogging 1
+
+on property:ro.boot.debug_level=0x4948
+    setprop persist.wlbtlog.chipsetlogging 1
+
+on property:persist.wlbtlog.chipsetlogging=1 && property:wifi.active.interface=
+    setprop persist.wlbtlog.mxlog -1
+    setprop persist.wlbtlog.udilog -1
+restart --only-if-running wland
+
+on property:persist.wlbtlog.chipsetlogging=1 && property:wifi.active.interface=wlan0
+    setprop persist.wlbtlog.mxlog 0
+    setprop persist.wlbtlog.udilog 1
+restart --only-if-running wland
+
+on property:persist.wlbtlog.chipsetlogging=1 && property:wifi.active.interface=swlan0
+    setprop persist.wlbtlog.mxlog 0
+    setprop persist.wlbtlog.udilog 1
+restart --only-if-running wland
+
+on property:persist.wlbtlog.chipsetlogging=0
+    setprop persist.wlbtlog.mxlog -1
+    setprop persist.wlbtlog.udilog -1
+restart --only-if-running wland

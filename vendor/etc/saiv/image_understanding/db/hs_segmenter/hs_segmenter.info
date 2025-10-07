@@ -1,0 +1,8 @@
+{
+	"version_id": "v1",
+   "pcmodel": "v1.6",
+   "compiler": "snpe-2.17.0",
+   "model_type" : "gpu",
+   "precision" : "float16",
+   "model_path" : "/vendor/etc/saiv/image_understanding/db/hs_segmenter/hs_segmenter.tflite"
+}
